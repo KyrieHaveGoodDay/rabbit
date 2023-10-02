@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC"-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>APP 週末驚喜</title>
+  <meta name="renderer" content="webkit|ie-comp|ie-stand">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="address=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no, user-scalable=0">
+  <meta http-equiv="Cache-Control" content="no-cache">
+  <meta http-equiv="Pragma" content="no-cache">
+  <!--CSS-->
+  <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+  <link type="text/css" rel="stylesheet" href="css/all_0901.css">
+
+</head>
+
+<body>
+  <!-- 開頭動畫 -->
+  <div class="loading_mask">
+    <div class="lds-ellipsis">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  
+
+
+  <!-- Main -->
+  <div class="wrap">
+    <!-- main w:450 h:700  -->
+    <div class="main">
+      <div class="result-modal">
+        <a href="" class="result-link" target="_blank"><img src="img/20210901/boxman.png"></a>
+      </div>
+      <!-- game main -->
+      <div class="game">
+        <div class="game__title"><img src="img/20210901/title.png"></div>
+        <div class="game__text">
+          <p>和可愛玉兔搗麻糬<br>
+            拿好禮吧</p>
+        </div>
+        <!-- 遊戲主要內容 -->
+        <div class="game__main">
+          <!-- 敲打本體 -->
+          <div class="game__main--item" draggable="false">
+            <img class="item-back" src="img/20210901/item-back.png">
+            <img class="item-front" src="img/20210901/item-front.png" style="pointer-events:none ;">
+            <!-- circle1 -->
+            <svg id="circle1" viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg">
+              <path id="s1state1" d="M273,144c0,49.71-59.77,90-133.5,90S6,193.71,6,144c0-16.06,3.07-22,14-35,14.3-17.07,47.1,5.82,74-2,16.19-4.71,40.32-15.3,59-17,22-2,37.29,4.19,51,2,25-4,28-6,45.64,1.13C268.79,100.86,273,125.12,273,144Z" fill-rule="nonzero" fill="#fff" />
+              <path id="s1state2" opacity="0" d="M273,144c21.65,44.74-59.77,90-133.5,90S-17.67,187.71,6,144c13-24,3-32,14-45s20.76-15.54,48-9c25,6,53.32,30.7,72,29,22-2,47.68-23.08,61-27,17-5,34.32-9.85,51-2C269,98,258,113,273,144Z" fill-rule="nonzero" fill="#fff" />
+              <path id="s1state3" opacity="0" d="M273,144c0,49.71-59.77,90-133.5,90S6,193.71,6,144c0-16.06,6.24-31.13,17.17-44.18C37.47,82.74,59.8,69.13,86.7,61.31A189.92,189.92,0,0,1,139.5,54a193.06,193.06,0,0,1,43.15,4.8c27.45,6.32,50.88,18.5,67,34.33C264.38,107.6,273,125.12,273,144Z" fill-rule="nonzero" fill="#fff" />
+            </svg>
+          </div>
+          <!-- 兔子 -->
+          <div class="game__main--rabbit"></div>
+          <!-- 本體final -->
+          <div class="game__main--final">
+            <img src="img/20210901/item_final.png">
+          </div>
+          <!-- 槌子 -->
+          <img class="game__main--tool" draggable="false" src="img/20210901/tool.png">
+          <!-- 遊戲背景 -->
+          <img draggable="false" src="img/20210901/game-bg.png">
+        </div>
+        <!-- 進度條 -->
+        <div class="game__footer">
+          <div class="game__footer--bar">
+            <div class="game__footer--progress"></div>
+          </div>
+          <div class="game__footer--icon"><img src="img/20210901/game-icon.png"></div>
+        </div>
+        <!-- 光點 -->
+      </div>
+      <!-- END game main -->
+    </div>
+    <!-- END main -->
+  </div>
+  <!-- END Main -->
+
+  <!-- Modal -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/gsap.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js'></script>
+  <script type="text/javascript" src="js/all_0901.js"></script>
+  <script>
+    let resultLink = 'https://shopping.pchome.com.tw/marketing/coupon/v2/couponsend.htm?id=614c4775172e3man2';
+    $('.result-link').attr('href', resultLink);
+
+
+
+  </script>
+
+</body>
+
+</html>
